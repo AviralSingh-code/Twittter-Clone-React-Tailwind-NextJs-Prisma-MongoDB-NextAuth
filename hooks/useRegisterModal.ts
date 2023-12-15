@@ -1,18 +1,18 @@
 import { atom, useRecoilState } from "recoil";
 
-interface LoginModalStore{
+interface RegisterModalStore{
     isOpen: boolean;
 };
 
-export const loginModalState = atom<LoginModalStore>({
-    key: 'loginModalState',
+export const registerModalState = atom<RegisterModalStore>({
+    key: 'registerModalState',
     default: {
         isOpen: false
     }
 });
 
-export default function useLoginModal(){
-    const[modalState, setModalState] = useRecoilState(loginModalState);
+export default function useRegisterModal(){
+    const[modalState, setModalState] = useRecoilState(registerModalState);
 
     function onOpen(){
         setModalState({ isOpen: true });
