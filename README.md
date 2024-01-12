@@ -22,16 +22,22 @@ A replicated version of Twitter designed to offer users identical functionality,
 
 ## Screenshots
 
+### Login/Register Screen 
 <img width="960" alt="r1" src="https://github.com/AviralSingh-code/Twitter-Clone-React-Tailwind-NextJs-Prisma-MongoDB-NextAuth/assets/72146088/18d3c86d-8f5b-4654-9197-7e8283cecad0">
 
+### Register Screen 
 <img width="960" alt="r2" src="https://github.com/AviralSingh-code/Twitter-Clone-React-Tailwind-NextJs-Prisma-MongoDB-NextAuth/assets/72146088/e0915374-2e6f-4862-85fc-ef15273aa376">
 
+### Edit Profile
 <img width="941" alt="r3" src="https://github.com/AviralSingh-code/Twitter-Clone-React-Tailwind-NextJs-Prisma-MongoDB-NextAuth/assets/72146088/0d04832c-4761-4012-a44e-fe5fbd56721a">
 
+### User Profile
 <img width="959" alt="r4" src="https://github.com/AviralSingh-code/Twitter-Clone-React-Tailwind-NextJs-Prisma-MongoDB-NextAuth/assets/72146088/625afd65-fec3-4d95-a713-cdb38bd5185e">
 
+### Notifications
 <img width="958" alt="r5" src="https://github.com/AviralSingh-code/Twitter-Clone-React-Tailwind-NextJs-Prisma-MongoDB-NextAuth/assets/72146088/43eaa79f-df2d-477b-beeb-59448536416b">
 
+### Logged In Home Screen
 <img width="958" alt="r6" src="https://github.com/AviralSingh-code/Twitter-Clone-React-Tailwind-NextJs-Prisma-MongoDB-NextAuth/assets/72146088/cd90cc25-bad6-43e0-9d5a-fbafd4774a0c">
 
 ## Deployed Website Link
