@@ -1,8 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
 import prisma from '@/libs/prismadb';
-import serverAuth from "./auth/serverAuth";
-
+import serverAuth from "@/libs/serverAuth";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'POST' && req.method !== 'DELETE') {
@@ -12,7 +11,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   try {
     const { postId } = req.body;
 
-    const { currentUser } = await serverAuth(req);
+    const { currentUser } = await serverAuth(req, res);
 
     if (!postId || typeof postId !== 'string') {
       throw new Error('Invalid ID');
