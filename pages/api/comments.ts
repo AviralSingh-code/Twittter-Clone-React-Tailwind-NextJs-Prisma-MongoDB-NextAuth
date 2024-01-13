@@ -4,7 +4,7 @@ import serverAuth from "@/libs/serverAuth";
 import prisma from "@/libs/prismadb";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  if (req.method !== 'POST') {
+  if (req.method != 'POST') {
     return res.status(405).end();
   }
 
@@ -13,7 +13,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const { body } = req.body;
     const { postId } = req.query;
 
-    if (!postId || typeof postId !== 'string') {
+    if (!postId || typeof postId != 'string') {
       throw new Error('Invalid ID');
     }
 
